@@ -1,7 +1,7 @@
 {
     "creditcards": [
       {
-        "id": 2,
+        "id": 1,
         "name": "SBI Bank",
         "description": "SBI Bank offers customers with various options",
         "bankName": "SBI Bank",
@@ -15,7 +15,7 @@
         "updatedDate": "2023-31-08"
       },
       {
-        "id": 4,
+        "id": 2,
         "name": "Mastercard",
         "description": "Mastercard offers customers with various options",
         "bankName": "Mastercard",
@@ -29,7 +29,7 @@
         "updatedDate": "2023-31-08"
       },
       {
-        "id": 5,
+        "id": 3,
         "name": "Visa",
         "description": "Visa offers customers with various options",
         "bankName": "Visa",
