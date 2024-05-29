@@ -10,8 +10,16 @@ import { DeleteComponent } from './delete/delete.component';
 import { MatCardModule} from '@angular/material/card'; 
 import { MatTableModule} from '@angular/material/table';
 import { MatPaginatorModule} from '@angular/material/paginator';
-import {MatCheckboxModule} from '@angular/material/checkbox';
+import { MatCheckboxModule} from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule} from '@angular/material/form-field';
+import { MatSelectModule} from '@angular/material/select';  
+import { MatDatepickerModule} from '@angular/material/datepicker'; 
+import { RouterModule } from '@angular/router';
+import { MatNativeDateModule} from '@angular/material/core';
+import { MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -29,7 +37,15 @@ import { MatIconModule } from '@angular/material/icon';
     MatTableModule,
     MatPaginatorModule,
     MatCheckboxModule,
-    MatIconModule
+    MatIconModule,
+    MatInputModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatDatepickerModule,
+    RouterModule,
+    MatNativeDateModule,
+    MatButtonModule
   ]
 })
 export class CreditcardsModule { }
