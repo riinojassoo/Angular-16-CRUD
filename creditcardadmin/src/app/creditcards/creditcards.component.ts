@@ -17,6 +17,7 @@ export class CreditcardsComponent {
   creditcards: CreditCard[] = [];
 
   creditCardMaximumAmount: number = 0;
+  creditCardMaximumIntrest: number = 0;
 
   constructor(private creditcardsService: CreditcardsService) {
     this.creditcardsService.getCreditCards().subscribe((data:CreditCard[]) => {
@@ -43,5 +44,6 @@ export class CreditcardsComponent {
   }
   calculateMetrics(){
     this.creditCardMaximumAmount = this.creditcards.filter(card => card.maxCredit > 3000).length;
+    this.creditCardMaximumIntrest = this.creditcards.filter(card => card.interestRate > 7).length;
   }
 }
