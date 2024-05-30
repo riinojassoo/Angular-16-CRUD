@@ -209,6 +209,20 @@
       "createdDate": "2023-10-18T04:00:00.000Z",
       "updatedDate": "2023-10-19T04:00:00.000Z",
       "id": "7"
+    },
+    {
+      "id": "fdca",
+      "name": "Platinum Card",
+      "description": "This is a test credit card",
+      "bankName": "ARC Bank",
+      "maxCredit": "10000",
+      "interestRate": "153",
+      "active": true,
+      "recommendedScore": "300-500",
+      "annualFee": "203",
+      "termsAndConditions": "Terms and conditions for the credit card",
+      "createdDate": "2024-04-30T21:00:00.000Z",
+      "updatedDate": "2024-09-04T21:00:00.000Z"
     }
   ]
 }
