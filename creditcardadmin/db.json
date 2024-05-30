@@ -155,20 +155,6 @@
       "updatedDate": "2023-31-08"
     },
     {
-      "id": "3",
-      "name": "Bank of America",
-      "description": "Bank of America offers customers with various options",
-      "bankName": "Bank of America",
-      "maxCredit": 3000,
-      "interestRate": 10,
-      "active": true,
-      "recommendedScore": "700-900",
-      "annualFee": 4,
-      "termsAndConditions": "Following are the terms and conditions",
-      "createdDate": "2023-31-08",
-      "updatedDate": "2023-31-08"
-    },
-    {
       "id": "-1",
       "name": "Test1",
       "description": "Some bank",

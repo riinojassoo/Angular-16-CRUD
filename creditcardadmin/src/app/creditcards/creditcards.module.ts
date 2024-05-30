@@ -21,6 +21,7 @@ import { RouterModule } from '@angular/router';
 import { MatNativeDateModule} from '@angular/material/core';
 import { MatButtonModule} from '@angular/material/button';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MatSnackBarModule } from '@angular/material/snack-bar'; 
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     RouterModule,
     MatNativeDateModule,
     MatButtonModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatSnackBarModule
   ]
 })
 export class CreditcardsModule { }
